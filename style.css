@@ -1,0 +1,45 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe4e4;
+    color: #8e3b46;
+    text-align: center;
+    margin: 0;
+}
+
+#landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+button {
+    background-color: #f6a6c7;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8bbd;
+}
+
+/* Heart animation */
+.heart-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.w3schools.com/w3images/hearts.gif');
+    animation: moveHearts 5s infinite;
+}
+
+@keyframes moveHearts {
+    0% { top: -20%; left: 30%; }
+    50% { top: 100%; left: 50%; }
+    100% { top: -20%; left: 70%; }
+}
