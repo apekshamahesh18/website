@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Landing Page with Floating Hearts -->
+    <section id="landing">
+        <div class="heart-animation"></div>
+        <button id="startBtn">Start the Journey</button>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" style="display: none;">
+        <h2>Quiz: How Well Do You Know Us?</h2>
+        <div id="question-container">
+            <p id="question"></p>
+            <input type="text" id="answer">
+            <button onclick="checkAnswer()">Submit</button>
+        </div>
+    </section>
+
+    <!-- Love Story Timeline -->
+    <section id="timeline" style="display: none;">
+        <h2>Our Love Story</h2>
+        <div id="timeline-content"></div>
+    </section>
+
+    <!-- Playlist -->
+    <section id="playlist" style="display: none;">
+        <h2>Our Playlist</h2>
+        <iframe src="https://www.youtube.com/embed/_YRZ0jON6Pk?si=4HLUKZdiX2A_8Lgp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section id="countdown" style="display: none;">
+        <h2>Countdown to a Special Day</h2>
+        <div id="timer"></div>
+    </section>
+
+    <!-- Secret Love Note -->
+    <section id="secret-note" style="display: none;">
+        <h2>Secret Love Note</h2>
+        <p id="love-note">You're my everything.</p>
+    </section>
+
+    <!-- Virtual Gift -->
+    <section id="virtual-gift" style="display: none;">
+        <h2>Your Virtual Gift</h2>
+        <p>Enjoy this custom digital art! <a href="#" target="_blank">Click here to view it.</a></p>
+    </section>
+
+</body>
+
+</html>
